@@ -8,8 +8,8 @@ add_button = FreeSimpleGUI.Button("Add")
 list_box = FreeSimpleGUI.Listbox(values=functions.get_todos(), key='todos', 
                                  enable_events=True, size=[45, 10])
 edit_button = FreeSimpleGUI.Button("Edit")
-complete_button = sg.Button("Complete")
-exit_button = sg.Button("Exit")
+complete_button = FreeSimpleGUI.Button("Complete")
+exit_button = FreeSimpleGUI.Button("Exit")
 
 window = FreeSimpleGUI.Window('My To-Do App',
                                layout=[[label],
