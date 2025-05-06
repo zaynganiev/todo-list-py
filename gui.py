@@ -8,7 +8,8 @@ FreeSimpleGUI.theme("Black")
 clock = FreeSimpleGUI.Text('', key='clock')
 label = FreeSimpleGUI.Text("Type in a to-do")
 input_box = FreeSimpleGUI.InputText(tooltip="Enter todo", key="todo")
-add_button = FreeSimpleGUI.Button("Add", size=10)
+add_button = FreeSimpleGUI.Button(size=3, image_source="add.png", mouseover_colors="LightBlue2",
+                                  tooltip="Add Todo", key="Add")
 list_box = FreeSimpleGUI.Listbox(values=functions.get_todos(), key='todos', 
                                  enable_events=True, size=[45, 10])
 edit_button = FreeSimpleGUI.Button("Edit")
