@@ -1,0 +1,19 @@
+
+---
+
+### 🚫 `.gitignore`
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# To-do data file
+todos.txt
+
+# Image cache or temporary files
+*.png~
