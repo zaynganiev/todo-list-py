@@ -20,6 +20,7 @@ Install requirements via pip:
 ```bash
 pip install PySimpleGUI
 
+🚧 This project is complete and no longer being actively developed.
 
 # Project By Zayn Ganiev.
  
